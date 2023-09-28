@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8">
+	<title>proste działania</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<link rel="stylesheet" href="main.css"></link>
+	
+</head>
+<body>
+
+	<h1>Proste działania</h1>
+	<label for="a">Podaj pierwszą liczbę: </label><input type="number" id="a">
+	<br>
+	<br>
+	<label for="b">Podaj drugą liczbę: </label><input type="number" id="b">
+	<br>
+	<br>
+	<input type="button" value="Dodawanie" onclick="calculate(1)">
+	<button type="button" onclick="calculate(2)">Odejmowanie</button>
+	<button type="button" onclick="calculate(3)">Mnożenie</button>
+	<button type="button" onclick="calculate(4)">Dzielenie</button>
+	
+	<div class="wynik_box">
+		Wynik:
+		<div class="wynik"></div>
+	</div>
+	
+	<script src="math.js"></script>
+	
+</body>
+</html>
